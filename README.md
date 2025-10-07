@@ -1,4 +1,4 @@
-# Finance Project — Backend
+# Finance Project
 
 ## Run locally
 1. create virtualenv & install:

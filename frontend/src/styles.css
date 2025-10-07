@@ -1,0 +1,23 @@
+:root{
+  --bg:#f5f7fb; --card:#fff; --accent:#2563eb; --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; margin:0; background:var(--bg); color:#111}
+.app{max-width:980px;margin:28px auto;padding:18px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 20px rgba(15,23,42,0.06)}
+.btn{background:var(--accent);color:white;padding:8px 12px;border-radius:8px;border:0;cursor:pointer}
+.btn-ghost{background:transparent;border:1px solid #e6e9ef;color:var(--muted)}
+.grid{display:grid;gap:12px}
+.row{display:flex;gap:12px;align-items:center}
+.form-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.input,textarea,select{padding:8px;border-radius:8px;border:1px solid #e6e9ef;width:100%}
+.small{font-size:13px;color:var(--muted)}
+.receipt{padding:12px;border-radius:8px;border:1px solid #eef2ff;background:#fff;margin-bottom:8px}
+.json-box{white-space:pre-wrap; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; font-size:13px; background:#0f172a10;padding:8px;border-radius:6px}
+.nav{display:flex;gap:8px}
+.logo{font-weight:700;color:var(--accent)}
+.footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+/* add to style.css */
+select, input[type="date"] { padding:8px; border-radius:8px; border:1px solid #e6e9ef; }
+svg { max-width:100%; height:auto; }
